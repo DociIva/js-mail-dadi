@@ -42,7 +42,7 @@ document.getElementById('utente-dado').innerHTML = 'Dado utente : ' + utente;
 // 2 NUMERO (generato grazie a math.random)COMPUTER RANDOM DA 1 A 6 PER IL COMPUTER
 var computer = Math.floor(Math.random() * 6) +1;
 console.log('numero computer' , computer);
-document.getElementById('computer-dado').innerHTML = 'Dado pc : ' + computer;
+document.getElementById('computer-dado').innerHTML = 'Dado computer : ' + computer;
 
 // 3 
 if (utente > computer) {
