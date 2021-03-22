@@ -1,1 +1,27 @@
-console.log('ciao a tutti');
+// Chiedi all’utente la sua email, controlla che sia nella lista di chi può accedere, 
+// stampa un messaggio appropriato sull’esito del controllo.
+// 1 primo punto mettere delle email lista
+
+var email = ['pippo@gmail.com','palla@gmail.com','pincopalla@gmail.com'];
+console.log(email);
+// 2
+var user = prompt('inserisci email').toLowerCase();
+user = user.toLowerCase();
+console.log(user);
+
+for(var i=0; i < email.length; i++){
+    if  (email [i] === user)
+        userFound = true;
+        break;
+    }  
+var userFound = false;
+if (userFound === true) {
+    console.log('utente trovato, puoi entrare');
+} else {
+    console.log('errore di autenticazione');
+}
+
+
+
+
+
