@@ -57,7 +57,6 @@ if (utente > computer) {
 }
 
 
-// 4 STABILISCI IL VINCITORE IN BASE A CHI HA IL PUNTEGGIO PIU' ALTO
 
 
 
